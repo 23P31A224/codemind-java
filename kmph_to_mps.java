@@ -1,11 +1,10 @@
 import java.util.Scanner;
-public class rp{
+public class km{
     public static void main(String[] args){
-        int a;
+        int a,b;
         Scanner read=new Scanner(System.in);
         a=read.nextInt();
-        
-        double b=a/3.6;
-        System.out.printf("%.2f",b);
+        double c=a/3.6;
+        System.out.printf("%.2f",c);
     }
 }
