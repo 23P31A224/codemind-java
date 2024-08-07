@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	
+        int n;
+        Scanner read=new Scanner(System.in);
+        n=read.nextInt();
+         if(n<3){
+        System.out.println("GOLD\n");
+    }
+    else if(n>=3&&n<6){
+        System.out.println("SILVER\n");
+    }
+    else {
+        System.out.println("BRONZE\n");
+    }
+	}
+}
