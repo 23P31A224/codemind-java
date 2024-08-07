@@ -1,0 +1,15 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	int a;
+	Scanner read=new Scanner(System.in);
+	a=read.nextInt();
+        int res=100-a;
+        System.out.println(res);
+	}
+}
