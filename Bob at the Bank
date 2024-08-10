@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int t;
+		Scanner read=new Scanner(System.in);
+		t=read.nextInt();
+		for(int i=0;i<t;i++){
+		    int a,b,c,d;
+		    a=read.nextInt();
+		    b=read.nextInt();
+		    c=read.nextInt();
+		    d=read.nextInt();
+		    int x=c-b;
+		    int red=a-(x*d);
+		    System.out.println(red);
+		}
+	}
+}
