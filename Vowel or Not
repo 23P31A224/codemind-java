@@ -1,0 +1,10 @@
+class Solution {
+    String isVowel(char c) {
+        String vowels = "aeiouAEIOU";
+        if(vowels.indexOf(c)>=0){
+            return "YES";
+        }else{
+            return "NO";
+        }
+    }
+}
